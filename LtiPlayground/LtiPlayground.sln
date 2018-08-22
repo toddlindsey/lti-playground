@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lti.Web", "Lti.Web\Lti.Web.csproj", "{92230739-D240-4BF2-8CC0-FBF6B58F43DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92230739-D240-4BF2-8CC0-FBF6B58F43DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92230739-D240-4BF2-8CC0-FBF6B58F43DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92230739-D240-4BF2-8CC0-FBF6B58F43DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92230739-D240-4BF2-8CC0-FBF6B58F43DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {088025B2-231F-48D4-AE4A-8FC31E2923B9}
+	EndGlobalSection
+EndGlobal
