@@ -1,0 +1,14 @@
+@model Lti.Web.Models.LtiDeepLinkPageModel
+@{
+    ViewData["Title"] = "Deep Link Submit";
+}
+<h2>Deep Link Post</h2>
+
+<code style="width: 100%; height: 500px; white-space: pre">
+    @Model.TokenContents
+</code>
+
+<form method="post" action="@Model.ReturnUrl" accept-charset="utf8">
+    <input type="hidden" name="id_token" value="@Model.IDToken" />
+    <input type="submit" value="Submit Deep Link"/>
+</form>

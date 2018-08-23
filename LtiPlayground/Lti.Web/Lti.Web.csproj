@@ -2,15 +2,29 @@
 
   <PropertyGroup>
     <TargetFramework>net461</TargetFramework>
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+    <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
+    <IsPackable>false</IsPackable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="appsettings.local.json" />
+  </ItemGroup>
 
   <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="BouncyCastle" Version="1.8.2" />
     <PackageReference Include="Microsoft.AspNetCore" Version="2.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Core" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="2.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="2.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.1.1" />
   </ItemGroup>
 
   <ItemGroup>

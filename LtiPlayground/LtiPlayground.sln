@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lti.Web", "Lti.Web\Lti.Web.csproj", "{92230739-D240-4BF2-8CC0-FBF6B58F43DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lti.Web", "Lti.Web\Lti.Web.csproj", "{92230739-D240-4BF2-8CC0-FBF6B58F43DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
